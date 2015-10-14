@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_dashboard"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_informacao"
+            android:icon="@drawable/ic_event"
+            android:title="Informações" />
+        <item
+            android:id="@+id/nav_musica"
+            android:icon="@drawable/ic_headset"
+            android:title="Músicas" />
+        <item
+            android:id="@+id/nav_busca"
+            android:icon="@drawable/icon_search"
+            android:title="Busca" />
+    </group>
+
+    <item android:title="Apoio">
+        <menu>
+            <item
+                android:id="@+id/nav_agradecimento"
+                android:icon="@drawable/ic_dashboard"
+                android:title="Agradecimentos" />
+            <item
+                android:id="@+id/nav_sugestao"
+                android:icon="@drawable/ic_dashboard"
+                android:title="Sugestões" />
+            <item
+                android:id="@+id/nav_site_tokusatsus"
+                android:icon="@drawable/ic_dashboard"
+                android:title="Sites de Tokusatsus" />
+        </menu>
+    </item>
+
+</menu>

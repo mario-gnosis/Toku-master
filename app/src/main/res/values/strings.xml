@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<resources>
+    <string name="app_name">Tokusatsus</string>
+  <string name="tokusatsu_ipsum">teste</string>
+
+  <string name="checkin">Verificar</string>
+  <string name="menu_settings">Definições</string>
+    <string name="Sair">Sair</string>
+
+
+    <string-array name="history_national_kid">
+        <item>Exibido no Brasil em 1964 até início dos anos 70 na TV Rio(Extinta), Rede Record e </item>
+        <item>Rede Globo e Rede Manchete (Extinta) em 1996</item>
+        <item></item>
+        <item>Exibido originalmente no Japão em 1960</item>
+        <item>Gênero: Henshin Hero</item>
+    </string-array>
+
+    <string-array name="history_ultraman">
+        <item>Exibido no Brasil em 1968 na Rede Bandeirantes, nos anos 70 na TV Tupi (Extinta), e Record, </item>
+        <item>anos 80 no SBT, em 1996 na Rede Manchete(Extinta) com nova dublagem, e em 2002 na </item>
+        <item>CNT. . Atualmente é exibida pela Ulbra TV de Porto Alegre e pela Rede Brasil de TV,</item>
+        <item>de São Paulo</item>
+        <item></item>
+        <item>Exibido originalmente no Japão em 1966</item>
+        <item>Gênero: Ultraman</item>
+        </string-array>
+
+    <string-array name="history_vingadores">
+        <item>Exibido no Brasil nos anos 1973 a 1974 e reprisada em 1980 com nova dublagem  na TV </item>
+        <item>Tupi(Extinta) no início dos anos 80 na Rede Record e depois na Rede Bandeirantes</item>
+        <item></item>
+        <item>Exibido originalmente no Japão em 1966</item>
+        <item>Gênero: Kyodai Hero</item>
+        </string-array>
+
+    <string-array name="history_robo_gigante">
+        <item>Exibido no Brasil no começo dos anos 1970 pela TV Tupi(Extinta) e, devido ao sucesso, voltou </item>
+        <item>à TV nos anos 1980 pela Rede Bandeirantes e Rede Record, até sumir de vez aqui no Brasil.</item>
+        <item></item>
+        <item>Exibido originalmente no Japão em 1967</item>
+        <item>Gênero: Kyodai Hero</item>
+        </string-array>
+
+    <string-array name="history_ultraseven">
+        <item>Exibido no Brasil no início dos anos 70 na TV Tupi (Extinta). Integrou, já em meados da década, </item>
+        <item>o cast de atrações do Capitão Aza. Depois foi exibida pela Rede Bandeirantes, quando, no </item>
+        <item>começo dos anos 80, era exibida em horário nobre, às 20h, junto com Robô Gigante e Tunel do tempo</item>
+        <item>Tunel do tempo da Record. Sua última exibição no Brasil data-se do ano 1986, quando era exibida às 8h </item>
+        <item>da manhã na mesma Rede Record, quando perdeu espaço para um programa evangélico e </item>
+        <item>nunca mais voltou ao ar. Desde 2010 a série está sendo exibida pela Rede Brasil de Televisão</item>
+        <item>(SP) canal 50.</item>
+        <item></item>
+        <item>Exibido originalmente no Japão em 1967</item>
+        <item>Gênero: Ultraman</item>
+        </string-array>
+
+    <string-array name="history_esper">
+        <item>Exibido no Brasil nos anos 70 até 1978 na TV Tupi e Rede Record,  e início dos anos 80 na TV</item>
+        <item>Gazeta/SP com o nome de Vésper</item>
+        <item></item>
+        <item>Exibido originalmente no Japão em 1967</item>
+        <item>Gênero: Henshin Hero</item>
+        </string-array>
+
+    <string-array name="history_ultraman_jack">
+        <item>Exibido no Brasil em 1974 na TV Tupi (Extinta), 1979 na  Record e anos 80 na TVS (Atual SBT).</item>
+        <item>Em 1986 a série pasou a ser exibida no programa”TV POWW”onde foi exibido alternando horário </item>
+        <item>com o “Ultraman de Hayata”,o que causava confusão aos telespectadores,pois ambas as séries</item>
+        <item>se chamavam “ULTRAMAN”;naquele mesmo ano,mudou de lugar,foi exibida no “CARROSEL de </item>
+        <item>DESENHOS” da TVS,como tapa-buracos,às 19h.Em 1987,fez parte das atrações do programa</item>
+        <item>“ORADUKAPETA” (do Sérgio Malandro).Sua última exibição foi muito curta,em outubro de ‘87,no </item>
+        <item>programa “BOZO”, quando deu lugar ao seriado “Spectreman”,nas tardes do SBT</item>
+        <item></item>
+        <item>Exibido originalmente no Japão em 1971</item>
+        <item>Gênero: Ultraman</item>
+        </string-array>
+
+    <string-array name="history_spectroman">
+        <item>Exibido no Brasil na década de 70 na Rede Record e na década de 80  na TVS (atual SBT)</item>
+        <item></item>
+        <item>Exibido originalmente no Japão em 1966</item>
+        <item>Gênero: Kyodai Hero</item>
+        </string-array>
+
+    <string-array name="history_jaspion">
+        <item>Exibido no Brasil em 1988 na Rede Manchete,Também foi exibido pela REDE RECORD</item>
+        <item>continuando a manter ótimos índices de audiência. Posteriormente, em 1997, foi transmitida pela </item>
+        <item>CNT/Gazeta. Atualmente é transmitida pela Ulbra TV, onde permanece até hoje.</item>
+        <item></item>
+        <item>Exibido originalmente no Japão em </item>
+        <item>Gênero: Metal Hero</item>
+
+        </string-array>
+
+    <string-array name="history_chageman">
+        <item>Exibido no Brasil em 1988 na Rede Manchete  e, mais tarde, pela REDE RECORD e pela </item>
+        <item>GAZETA. Fez grande sucesso em seu país de origem e no Brasil.</item>
+        <item></item>
+        <item>Exibido originalmente no Japão em 1985</item>
+        <item>Gênero: Super Sentai</item>
+        </string-array>
+
+    <string-array name="history_jiraya">
+        <item>Exibido no Brasil em 1989 na Rede Manchete, continuando a fazer muito sucesso na década de </item>
+        <item>90. Mais tarde voltou a ser exibida pela mesma emissora entre 1998 e 1999. Com a</item>
+        <item>falência da Manchete, a série foi exibida pela manhã na RedeTV! até meados de 1999, pouco </item>
+        <item>antes da emissora estrear a sua programação definitiva. Atualmente, é exibida no bloco "Made </item>
+        <item>in Japan" da Ulbra TV de Porto Alegre, pela Rede NGT de televisão, e Rede Brasil de Televisão (RBTV).</item>
+        <item></item>
+        <item>Exibido originalmente no Japão em 1988</item>
+        <item>Gênero: Metal Hero</item>
+        </string-array>
+
+    <string-array name="history_lion_man">
+        <item>Exibido no Brasil em 1989 na Rede Manchete. Além de ter sido lançado em VHS.</item>
+        <item></item>
+        <item>Exibido originalmente no Japão em 1973</item>
+        <item>Gênero: Henshin Hero</item>
+        </string-array>
+
+    <string-array name="history_lion_man_branco">
+        <item>Exibido no Brasil em 1989 na Rede Manchete, Após o final da série de Lion Man , a </item>
+        <item>exibiu um tempo depois 10 episódios de Kaiketsu Lion Maru (Extraordinário Lion Maru) como se </item>
+        <item>fossem episódios inéditos de Lion Man, só que nessa versão o herói tem a forma de um leão branco </item>
+        <item>Embora exibido incompleta após "Fuun Lion Maru", "Kaiketsu Lion Maru" é uma série feita antes </item>
+        <item>e possui o total de 54 episódios.</item>
+        <item></item>
+        <item>Exibido originalmente no Japão em 1972</item>
+        <item>Gênero: Henshin Hero</item>
+        </string-array>
+
+    <string-array name="history_flashman">
+        <item>Exibido no Brasil em 1989 na Rede Manchete, onde ficou até 1994. No mesmo ano foi ao ar pela </item>
+        <item>Rede Record, ficando até o final de 1995, com reprises em 1996. Mais tarde começou a ser </item>
+        <item>exibida na CNT/Gazeta onde permaneceu até o começo de 2000. Atualmente é exibida pela </item>
+        <item>Ulbra TV de Porto Alegre e Rede Brasil de Televisão.</item>
+        <item></item>
+        <item>Exibido originalmente no Japão em 1986</item>
+        <item>Gênero: Super Sentai</item>
+        </string-array>
+
+    <string-array name="history_cybercops">
+        <item>Exibido no Brasil em 1990 na Rede Manchete, ficando no ar até a metade da mesma década </item>
+        <item>conquistando ótimos indices de audiência. Mais tarde foi reprisada pela CNT. Atualmente é </item>
+        <item>exibida pela Ulbra TV de Porto Alegre.</item>
+        <item></item>
+        <item>Exibido originalmente no Japão em 1988</item>
+        <item>Gênero: Henshin Hero</item>
+        </string-array>
+
+    <string-array name="history_metalder">
+        <item>Exibido no Brasil em 1990 na Rede Bandeirantes</item>
+        <item></item>
+        <item>Exibido originalmente no Japão em 1987</item>
+        <item>Gênero: Metal Hero</item>
+        </string-array>
+
+    <string-array name="history_sharivan">
+        <item>Exibido no Brasil em 1990 na Rede Bandeirantes. Posteriormente foi exibida na Rede Record </item>
+        <item>em 1993 e na TV Guaíba, de 13 de setembro de 1993 a 15 de janeiro de 1994.Voltou a ser </item>
+        <item>exibido em 1995 pela Rede Record no programa Tarde Criança junto com os outros heróis </item>
+        <item>japoneses.</item>
+        <item></item>
+        <item>Curiosidades: É a segunda série da trilogia dos Policiais do Espaço, sucedendo Gyaban, mas no </item>
+        <item>Brasil ela foi exibida primeiro, em canal diferente, com dubladores diferentes, confundindo </item>
+        <item>telespectadores da época. Sharivan exibido na Rede Bandeirantes em 1990 e Gyaban exibido </item>
+        <item>na Rede Globo em 1991 e Shaider a terceira série da trilogia foi exibida na Rede Globo em 1992.</item>
+        <item></item>
+        <item>Exibido originalmente no Japão em 1983</item>
+        <item>Gênero: Metal Hero</item>
+        </string-array>
+
+    <string-array name="history_machine_man">
+        <item>Exibido no Brasil em 1990 na Rede Bandeirantes, em 1995 na Record e depois foi para REDE </item>
+        <item>NGT (é uma rede de televisão na cidade de São Paulo e uma sucursal no Rio de Janeiro).</item>
+        <item></item>
+        <item>Exibido originalmente no Japão em 1984</item>
+        <item>Gênero: Henshin Hero</item>
+        </string-array>
+
+    <string-array name="history_jiban">
+        <item>Exibido no Brasil em 1990 na Rede Manchete. Atualmente é exibida de forma não autorizada </item>
+        <item>pela Ulbra TV de Porto Alegre e Rede Brasil de Televisão.</item>
+        <item></item>
+        <item>Exibido originalmente no Japão em 1989</item>
+        <item>Gênero: Metal Hero</item>
+        </string-array>
+
+    <string-array name="history_goggle_five">
+        <item>Exibido no Brasil em 1990 na Rede Bandeirantes. Depois de um tempo passou para a Rede Record</item>
+        <item></item>
+        <item>Exibido originalmente no Japão em 1982</item>
+        <item>Gênero: Super Sentai</item>
+        </string-array>
+
+    <string-array name="history_gyaban">
+        <item>Exibido no Brasil em 1991 na Rede Globo  e logo após foi exibido TV Gazeta, no programa </item>
+        <item>Gazetinha.</item>
+        <item>Curiosidades: É a primeira da trilogia dos Policiais do Espaço, continuada pelas duas séries </item>
+        <item>seguintes, Sharivan e Shaider, mas no Brasil ela foi exibida depois de Sharivan, em canal </item>
+        <item>diferente, com dubladores diferentes, confundindo os telespectadores da época. </item>
+        <item>exibido na Rede Bandeirantes em 1990 e Gyaban exibido na Rede Globo em 1991 e Shaider </item>
+        <item>terceira série da trilogia foi exibida na Rede Globo em 1992.</item>
+        <item></item>
+        <item>Exibido originalmente no Japão em 1982</item>
+        <item>Gênero: Metal Hero</item>
+        </string-array>
+
+    <string-array name="history_bycrossers">
+        <item>Exibido no Brasil em 1991 na Rede Globo, além de ter sido lançada a série em vídeo VHS, sendo </item>
+        <item>reprisada na TV Gazeta anos mais tarde.</item>
+        <item></item>
+        <item>Exibido originalmente no Japão em 1985</item>
+        <item>Gênero: Henshin Hero</item>
+        </string-array>
+
+    <string-array name="history_maskman">
+        <item>Exibido no Brasil em 1991 na Rede Manchete. Depois disso, houve uma segunda reprise em </item>
+        <item>1999, também pela Rede Manchete, e pela RedeTV! quando ainda estava em fase experimental, </item>
+        <item>que exibiu a série até o episódio 36.</item>
+        <item></item>
+        <item>Exibido originalmente no Japão em 1987</item>
+        <item>Gênero: Super Sentai</item>
+        </string-array>
+
+    <string-array name="history_black_kamen_rider">]
+        <item>Exibido no Brasil em 1991 na Rede Manchete, exibida pela extinta Rede Manchete a partir de </item>
+        <item>abril de 1991, no bloco Sessão Super Heróis, obtendo grande sucesso e popularidade Black </item>
+        <item>Kamen Rider continuou sendo exibido até dezembro de 1994.</item>
+        <item></item>
+        <item>Exibido originalmente no Japão em 1987</item>
+        <item>Gênero: Kamen Rider</item>
+        </string-array>
+
+    <string-array name="history_spielvan">
+        <item>Exibido no Brasil em 1991 na Rede Manchete , onde recebeu o nome de "Jaspion 2".</item>
+        <item></item>
+        <item>Exibido originalmente no Japão em 1986</item>
+        <item>Gênero: Metal Hero</item>
+        </string-array>
+
+    <string-array name="history_policial_espacial_shaider">
+        <item>Exibido no Brasil em 1992 na Rede Globo e pela TV Gazeta no programa Gazetinha. É a terceira </item>
+        <item></item>
+        <item>Exibido originalmente no Japão em 1984</item>
+        <item>Gênero: Metal Hero</item>
+        </string-array>
+
+    <string-array name="history_winspector">
+        <item>Exibido no Brasil  em meados de 1994 na Rede Manchete, onde permaneceu por um longo </item>
+        <item>período na grade de programação</item>
+        <item></item>
+        <item>Exibido originalmente no Japão em 1990</item>
+        <item>Gênero: Metal Hero</item>
+        </string-array>
+    
+    <string-array name="history_kamen_rider_black_rx">
+        <item>Exibido no Brasil em 1995 na Rede Manchete a partir de 24 de julho de 1995. É uma série </item>
+        <item>tokusatsu de televisão pertencente à franquia Kamen Rider, sendo a continuação direta de </item>
+        <item>Kamen Rider.</item>
+        <item></item>
+        <item>Exibido originalmente no Japão em </item>
+        <item>Gênero: Kamen Rider</item>
+        </string-array>
+
+    <string-array name="history_solbrain">
+        <item>Exibido no Brasil em 1995 na Rede Manchete</item>
+        <item></item>
+        <item>Exibido originalmente no Japão em 1991</item>
+        <item>Gênero: Metal Hero</item>
+        </string-array>
+
+    <string-array name="history_ultraman_tiga">
+        <item>Exibido no Brasil em 2000 na Rede Record</item>
+        <item></item>
+        <item>Exibido originalmente no Japão em 1996</item>
+        <item>Gênero: Ultraman</item>
+        </string-array>
+    
+    <string-array name="history_ryakendo">
+        <item>Exibido no Brasil em 2009 na Rede TV</item>
+        <item></item>
+        <item>Exibido originalmente no Japão em 2006</item>
+        <item>Gênero: Henshin Hero</item>
+    </string-array>
+
+
+
+</resources>
