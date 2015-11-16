@@ -1,4 +1,4 @@
-package com.support.android.designlibdemo;
+package com.support.android.tokusatsu;
 
 import android.support.v7.app.AppCompatActivity;
 

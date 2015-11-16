@@ -1,21 +1,7 @@
-/*
- * Copyright (C) 2015 The Android Open Source Project
- *
- * Licensed under the Apache License, Version 2.0 (the "License");
- * you may not use this file except in compliance with the License.
- * You may obtain a copy of the License at
- *
- *      http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS,
- * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
- * See the License for the specific language governing permissions and
- * limitations under the License.
- */
 
-package com.support.android.designlibdemo;
+package com.support.android.tokusatsu;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.NavigationView;
 import android.support.design.widget.TabLayout;
@@ -42,8 +28,8 @@ import java.util.List;
 public class MainActivity extends AppCompatActivity {
 
     private DrawerLayout mDrawerLayout;
-    private Toolbar mToolbar;
-    private Toolbar mToolbarBottom;
+
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -89,6 +75,10 @@ public class MainActivity extends AppCompatActivity {
 
     //Colocando atividade nos icones do Menu
       public boolean OnMenuItemSelected(int featureId, MenuItem item){
+
+          int id = item.getItemId();
+          Intent it = null;
+
         switch (item.getItemId()){
 
             case R.id.nav_home:
@@ -110,7 +100,12 @@ public class MainActivity extends AppCompatActivity {
                 break;
             case  R.id.nav_site_tokusatsus:
                 Toast.makeText(this,"Procure no Google!",Toast.LENGTH_LONG).show();
+              /*
+                it = new Intent(Intent.ACTION_VIEW);
+                it.setData(Uri.parse("http://www.whatsapp.com"));
                 break;
+                break;
+                */
 
 
         }
@@ -118,6 +113,8 @@ public class MainActivity extends AppCompatActivity {
         return super.onMenuItemSelected(featureId, item);
     }
 
+
+    //Menu lateral superior
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         switch (item.getItemId()) {
@@ -126,10 +123,6 @@ public class MainActivity extends AppCompatActivity {
                 return true;
         }
         int id = item.getItemId();
-        //noinspection SimplifiableIfStatement
-        if (id == R.id.action_settings) {
-            return true;
-        }
 
         if(id == R.id.action_search){
             Toast.makeText(getApplicationContext(), "O que você gostaria de procurar?", Toast.LENGTH_SHORT).show();
@@ -140,14 +133,26 @@ public class MainActivity extends AppCompatActivity {
               AlertDialog alertDialog;
               alertDialog = new AlertDialog.Builder(this).create();
               alertDialog.setTitle("Sair");
-              alertDialog.setMessage("Até logo!");
               alertDialog.show();
 
               System.exit(0);
           }
+
+          if (id == R.id.compartilhar) {
+              Intent sendIntent = new Intent();
+              sendIntent.setAction(Intent.ACTION_SEND);
+              sendIntent.putExtra(Intent.EXTRA_TEXT, "você conhece o melhor aplicativo sobre Tokusatsus? Instale agora ele e relembre os bons tempo de sua infancia/juventude!");
+              sendIntent.setType("text/plain");
+              startActivity(Intent.createChooser(sendIntent, getResources().getText(R.string.compartilhar)));
+
+
+          }
+
+
+
         return super.onOptionsItemSelected(item);
     }
-
+    //MUDA DE TELA
     private void setupViewPager(ViewPager viewPager) {
         Adapter adapter = new Adapter(getSupportFragmentManager());
         adapter.addFragment(new TokusatsuListFragment(), "Tokusatsus");
@@ -159,15 +164,14 @@ public class MainActivity extends AppCompatActivity {
     private void setupDrawerContent(NavigationView navigationView) {
         navigationView.setNavigationItemSelectedListener(
                 new NavigationView.OnNavigationItemSelectedListener() {
-            @Override
-            public boolean onNavigationItemSelected(MenuItem menuItem) {
-                menuItem.setChecked(true);
-                mDrawerLayout.closeDrawers();
-                return true;
-            }
-        });
+                    @Override
+                    public boolean onNavigationItemSelected(MenuItem menuItem) {
+                        menuItem.setChecked(true);
+                        mDrawerLayout.closeDrawers();
+                        return true;
+                    }
+                });
     }
-
 
     static class Adapter extends FragmentPagerAdapter {
         private final List<Fragment> mFragments = new ArrayList<>();

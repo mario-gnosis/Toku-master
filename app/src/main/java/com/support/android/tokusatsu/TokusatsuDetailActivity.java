@@ -1,22 +1,6 @@
-/*
- * Copyright (C) 2015 The Android Open Source Project
- *
- * Licensed under the Apache License, Version 2.0 (the "License");
- * you may not use this file except in compliance with the License.
- * You may obtain a copy of the License at
- *
- *      http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS,
- * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
- * See the License for the specific language governing permissions and
- * limitations under the License.
- */
-
-package com.support.android.designlibdemo;
 
 
+package com.support.android.tokusatsu;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.CollapsingToolbarLayout;
@@ -26,6 +10,7 @@ import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.ImageView;
+import android.widget.TextView;
 
 import com.bumptech.glide.Glide;
 
@@ -36,6 +21,8 @@ public class TokusatsuDetailActivity extends AppCompatActivity {
 
     public static final String EXTRA_OBJECT = "extra_object";
     private Tokusatsu tokusatsu;
+    private TextView conteudo;
+    private String[] recebeConteduto;
 
 
     /*
@@ -52,21 +39,45 @@ public class TokusatsuDetailActivity extends AppCompatActivity {
         Intent intent = getIntent();
         tokusatsu = (Tokusatsu) intent.getSerializableExtra(EXTRA_OBJECT);
 
-
+        // parte superior da tela quando encolhe a imagem na parte a historia, musia e video
         final Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
+            //Local onde adiciona a imagem na tela dos detalhes
         CollapsingToolbarLayout collapsingToolbar =
                 (CollapsingToolbarLayout) findViewById(R.id.collapsing_toolbar);
+        //pega o nome do Tokusatsus
         collapsingToolbar.setTitle(tokusatsu.name);
 
         loadBackdrop();
-    }
 
+/*
+        conteudo = (TextView) findViewById(R.id.conteudo_historia);
+        switch (tokusatsu.name){
+
+            case 0:
+                recebeConteduto = getResources().getStringArray(R.array.history_bycrossers);
+                findViewById(R.id.conteudo_historia) = getResources().getStringArray(R.array.history_bycrossers);
+                break;
+        }
+*/
+
+
+    }
+    //Adiciona a imagem na tela de detalhes
     private void loadBackdrop() {
         final ImageView imageView = (ImageView) findViewById(R.id.backdrop);
         Glide.with(this).load(tokusatsu.getPhotoResourceId(this)).centerCrop().into(imageView);
+
+        //Pega o contéudo que está em uma array no String\ Value
+        int id = getResources().getIdentifier("history_" + tokusatsu.photo.toLowerCase(), "array", getPackageName());
+        String[] description = getResources().getStringArray(id);
+        String dee = "";
+        for (String de : description){
+            dee += de;
+        }
+        ( (TextView) findViewById(R.id.conteudo_historia) ).setText(dee);
     }
 
         //MENU DE CONF, BUSCA E ETC
@@ -85,7 +96,6 @@ public class TokusatsuDetailActivity extends AppCompatActivity {
            AlertDialog alertDialog;
             alertDialog = new AlertDialog.Builder(this).create();
             alertDialog.setTitle("Sair");
-            alertDialog.setMessage("Até logo!");
             alertDialog.show();
 
 

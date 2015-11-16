@@ -64,24 +64,23 @@
 
                 <LinearLayout
                     style="@style/Widget.CardContent"
-                    android:layout_width="match_parent"
+                    android:layout_width="fill_parent"
                     android:layout_height="wrap_content">
 
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:text="História"
-                        android:textAppearance="@style/TextAppearance.AppCompat.Title" />
 
                     <TextView
-                        android:layout_width="wrap_content"
+                        android:id="@+id/conteudo_historia"
+                        android:layout_width="fill_parent"
                         android:layout_height="wrap_content"
-                        android:textAppearance="?android:attr/textAppearanceMedium"
-                        android:text="Exibido no Brasil em 1964 até início dos anos 70 na TV Rio(Extinta),
-                        Rede Record e Rede Globo e Rede Manchete (Extinta) em 1996
-                        Exibido originalmente no Japão em 1960
-                        Gênero: Henshin Hero"
-                        android:textColor="#ff868686"/>
+                        android:paddingBottom="@dimen/vertical_page_margin"
+                        android:verticalScrollbarPosition="defaultPosition"
+                        android:layout_marginTop="@dimen/fab_margin"
+                        android:textStyle="normal"
+                        android:textSize="16sp"
+                        android:textColor="#ff868686"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Title" />
+
+
 
                 </LinearLayout>
 

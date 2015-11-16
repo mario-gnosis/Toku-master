@@ -4,9 +4,13 @@
 <resources>
     <string name="app_name">Tokusatsus</string>
   <string name="tokusatsu_ipsum">teste</string>
-
   <string name="checkin">Verificar</string>
-  <string name="menu_settings">Definições</string>
+    <string name="compartilhar">Compartilhar</string>
+    <string name="action_facebook">Facebook</string>
+    <string name="action_youtube">YouTube</string>
+    <string name="action_google_plus">Google Plus</string>
+    <string name="action_linkedin">LinkedIn</string>
+    <string name="action_whatsapp">WhatsApp</string>
     <string name="Sair">Sair</string>
 
 
@@ -65,7 +69,7 @@
         <item>Gênero: Henshin Hero</item>
         </string-array>
 
-    <string-array name="history_ultraman_jack">
+    <string-array name="history_jack">
         <item>Exibido no Brasil em 1974 na TV Tupi (Extinta), 1979 na  Record e anos 80 na TVS (Atual SBT).</item>
         <item>Em 1986 a série pasou a ser exibida no programa”TV POWW”onde foi exibido alternando horário </item>
         <item>com o “Ultraman de Hayata”,o que causava confusão aos telespectadores,pois ambas as séries</item>
@@ -78,7 +82,7 @@
         <item>Gênero: Ultraman</item>
         </string-array>
 
-    <string-array name="history_spectroman">
+    <string-array name="history_spectreman">
         <item>Exibido no Brasil na década de 70 na Rede Record e na década de 80  na TVS (atual SBT)</item>
         <item></item>
         <item>Exibido originalmente no Japão em 1966</item>
@@ -86,16 +90,27 @@
         </string-array>
 
     <string-array name="history_jaspion">
-        <item>Exibido no Brasil em 1988 na Rede Manchete,Também foi exibido pela REDE RECORD</item>
-        <item>continuando a manter ótimos índices de audiência. Posteriormente, em 1997, foi transmitida pela </item>
-        <item>CNT/Gazeta. Atualmente é transmitida pela Ulbra TV, onde permanece até hoje.</item>
-        <item></item>
-        <item>Exibido originalmente no Japão em </item>
-        <item>Gênero: Metal Hero</item>
+        <item>Foi exibido no Brasil a partir de fevereiro de 1988 pela REDE MANCHETE, no programa vespertino “Clube da Criança”, apresentado pela “Angélica”, no começo de sua carreira na TV(2º programa dela), obtendo enorme sucesso e desencadeando uma febre  </item>
+        <item> nacional pelo gênero de super-heróis Japoneses no país, abrindo as portas para a importação de novas produções “Tokusatsu”. Devido à popularidade gigantesca, o personagem JASPION tornou-se o protótipo do herói Japonês, imagem que se mantém até os dias atuais.</item>
+       <item>\nTambém foi exibido pela REDE RECORD continuando a manter ótimos índices de audiência. Posteriormente, em 1997, foi transmitida pela CNT/Gazeta. </item>
+        <item>\n</item>
+        <item>\n</item>
+     <item>História:</item>
+        <item>\nNo planeta Edin, uma estrela a muitos anos-luz de distância da Terra, o profeta Edin encontra um garoto humano que sobreviveu à queda de uma nave espacial no planeta, acidente no qual seus pais morreram. Acreditando nas profecias da Bíblia Galáctica, a qual preceituava </item>
+       <item>que um guerreiro celestial salvaria a galáxia e o universo das forças do mal, Edin crê ser este o garoto predestinado a se tornar o lendário guerreiro.</item>
+       <item>\nEle adota o menino e o cria sozinho, dando-lhe o nome de Jaspion, na esperança de que, algum dia, o garoto venha a combater as ameaças do temível Satan Goss, do Império dos Monstros.</item>
+        <item>\nAnos mais tarde, já adolescente, Jaspion aprende sobre seu destino, e aceita de seu "pai" os equipamentos que seu mentor construiu para auxiliá-lo. \nEntre os artefatos, estão a armadura Metaltex, feita do metal mais resistente do universo (metal Ejinium); a andróide Anri, que passa a ser sua companheira  </item>
+        <item> na jornada, e a nave espacial Daileon, que tem o poder de transformar-se em um poderoso robô gigante.\nSua missão é encontrar os pedaços da Bíblia Galáctica (que havia se espalhado pelo Universo após o planeta ancestral de Edin ter sido destruído por um cometa) e destruir o império de Satan Goss.</item>
+       <item>\nApós algumas aventuras em planetas desconhecidos (num deles tendo resgatado a alienígena Miya, que é adotada e passa a acompanhar ambos), Jaspion e Anri chegam à Terra, alvo do maligno Satan Goss e seu filho MacGaren, que torna-se o rival do herói. Aqui, ganham novos aliados, como Boomerman (Boomerang, no original), o professor Nambara, e seus filhos, Kanoko e Kenta.</item>
+        <item>\n</item>
+        <item>\n</item>
+       <item>\nExibido originalmente no Japão em 1985</item>
+       <item>\nGênero: Metal Hero</item>
 
-        </string-array>
 
-    <string-array name="history_chageman">
+    </string-array>
+
+    <string-array name="history_changeman">
         <item>Exibido no Brasil em 1988 na Rede Manchete  e, mais tarde, pela REDE RECORD e pela </item>
         <item>GAZETA. Fez grande sucesso em seu país de origem e no Brasil.</item>
         <item></item>
@@ -103,15 +118,16 @@
         <item>Gênero: Super Sentai</item>
         </string-array>
 
+
     <string-array name="history_jiraya">
-        <item>Exibido no Brasil em 1989 na Rede Manchete, continuando a fazer muito sucesso na década de </item>
-        <item>90. Mais tarde voltou a ser exibida pela mesma emissora entre 1998 e 1999. Com a</item>
-        <item>falência da Manchete, a série foi exibida pela manhã na RedeTV! até meados de 1999, pouco </item>
-        <item>antes da emissora estrear a sua programação definitiva. Atualmente, é exibida no bloco "Made </item>
-        <item>in Japan" da Ulbra TV de Porto Alegre, pela Rede NGT de televisão, e Rede Brasil de Televisão (RBTV).</item>
-        <item></item>
-        <item>Exibido originalmente no Japão em 1988</item>
-        <item>Gênero: Metal Hero</item>
+        <item>Foi trazida ao Brasil pela extinta Top Tape e estreou no dia 25 de setembro de 1989 pela Rede Manchete, continuando a fazer muito sucesso na década de 90. </item>
+        <item>\nMais tarde voltou a ser exibida pela mesma emissora entre 1998 e 1999.</item>
+        <item>\nCom a falência da Manchete, a série foi exibida pela manhã na RedeTV! até meados de 1999, pouco antes da emissora estrear a sua programação definitiva.</item>
+       <item>\nA série diferenciou-se de suas antecessoras por quebrar o padrão da franquia na qual está inserida, introduzindo um herói sem superpoderes e utilizar como temática a tradição japonesa dos ninjas, até então nunca explorada nos Metal Heroes.</item>
+        <item>\n</item>
+        <item>\n</item>
+        <item>\nExibido originalmente no Japão em 1988</item>
+        <item>\nGênero: Metal Hero</item>
         </string-array>
 
     <string-array name="history_lion_man">
@@ -121,7 +137,7 @@
         <item>Gênero: Henshin Hero</item>
         </string-array>
 
-    <string-array name="history_lion_man_branco">
+    <string-array name="history_lion_branco">
         <item>Exibido no Brasil em 1989 na Rede Manchete, Após o final da série de Lion Man , a </item>
         <item>exibiu um tempo depois 10 episódios de Kaiketsu Lion Maru (Extraordinário Lion Maru) como se </item>
         <item>fossem episódios inéditos de Lion Man, só que nessa versão o herói tem a forma de um leão branco </item>
@@ -152,23 +168,31 @@
         </string-array>
 
     <string-array name="history_metalder">
-        <item>Exibido no Brasil em 1990 na Rede Bandeirantes</item>
-        <item></item>
-        <item>Exibido originalmente no Japão em 1987</item>
-        <item>Gênero: Metal Hero</item>
+        <item>Foi exibido no Brasil de 2 de abril a 21 de dezembro de 1990 pela Rede Bandeirantes.</item>
+        <item>\n</item>
+       <item>\n História: </item>
+        <item>\nEm meio à 2ª Guerra Mundial, o especialista em robótica Doutor Koga desenvolveu o andróide Metalder como arma secreta do exército japonês para ser usado na Guerra do Pacífico contra os EUA.</item>
+        <item>\nComo modelo o Doutor Koga utilizou o seu finado filho, Tatsuo Koga, segundo subtenente da Marinha Imperial. Porém o projeto foi abandonado. </item>
+        <item>\nEm 1987, Koga descobre a existência do Império Neroz e pouco antes de morrer, ativa Metalder.</item>
+        <item>\n</item>
+        <item>\n</item>
+        <item>\nExibido originalmente no Japão em 1987</item>
+        <item>\nGênero: Metal Hero</item>
         </string-array>
 
     <string-array name="history_sharivan">
-        <item>Exibido no Brasil em 1990 na Rede Bandeirantes. Posteriormente foi exibida na Rede Record </item>
-        <item>em 1993 e na TV Guaíba, de 13 de setembro de 1993 a 15 de janeiro de 1994.Voltou a ser </item>
-        <item>exibido em 1995 pela Rede Record no programa Tarde Criança junto com os outros heróis </item>
-        <item>japoneses.</item>
-        <item></item>
-        <item>Curiosidades: É a segunda série da trilogia dos Policiais do Espaço, sucedendo Gyaban, mas no </item>
-        <item>Brasil ela foi exibida primeiro, em canal diferente, com dubladores diferentes, confundindo </item>
-        <item>telespectadores da época. Sharivan exibido na Rede Bandeirantes em 1990 e Gyaban exibido </item>
-        <item>na Rede Globo em 1991 e Shaider a terceira série da trilogia foi exibida na Rede Globo em 1992.</item>
-        <item></item>
+        <item>Foi exibido no Brasil pela Rede Bandeirantes a partir do dia 8 de outubro de 1990 a 21 de dezembro do mesmo ano.</item>
+        <item>\nPosteriormente foi exibida na Rede Record em 1993 e na TV Guaíba, de 13 de setembro de 1993 a 15 de janeiro de 1994.</item>
+       <item>\nVoltou a ser exibido em 1996 pela Rede Record no programa Tarde Criança junto com os outros heróis japoneses.</item>
+        <item>\n</item>
+       <item>\nCuriosidades:</item>
+        <item>\nÉ a segunda série da trilogia dos Policiais do Espaço, sucedendo Gyaban, mas no Brasil ela foi exibida primeiro, em canal diferente, com dubladores diferentes, confundindo os telespectadores da época.</item>
+        <item>\nSharivan exibido na Rede Bandeirantes em 1990 e Gyaban exibido na Rede Globo em 1991 e Shaider a terceira série da trilogia foi exibida na Rede Globo em 1992.</item>
+        <item>\n</item>
+        <item>\nHistória: </item>
+        <item>\nDen Iga passa a ocupar o posto de Detetive Espacial na Terra, enquanto que seu antecessor Gyaban é promovido para capitão. Desta vez a ameaça é a Sociedade Secreta MAD (Maddou no Original), liderada por Maoh Saiki (Maoh Psycho).</item>
+        <item>\n</item>
+        <item>\n</item>
         <item>Exibido originalmente no Japão em 1983</item>
         <item>Gênero: Metal Hero</item>
         </string-array>
@@ -182,11 +206,16 @@
         </string-array>
 
     <string-array name="history_jiban">
-        <item>Exibido no Brasil em 1990 na Rede Manchete. Atualmente é exibida de forma não autorizada </item>
-        <item>pela Ulbra TV de Porto Alegre e Rede Brasil de Televisão.</item>
-        <item></item>
-        <item>Exibido originalmente no Japão em 1989</item>
-        <item>Gênero: Metal Hero</item>
+        <item>\nTrazida ao Brasil pela extinta distribuidora Top Tape, foi exibido a partir de 1990 pela Rede Manchete. </item>
+        <item>\nAo todo tem 52 episódios, onde apenas 50 foram exibidos pela emissora carioca na época. </item>
+        <item>\n</item>
+        <item>\n</item>
+        <item>\nHistória: </item>
+        <item>\nO policial Naoto Tamura sacrificou sua vida para derrotar um dos monstros da organização Biolon, mas renasceu como o Policial de Aço Jiban, passando a combater o grupo maligno, liderado pelo Doutor Jean Marrie.</item>
+        <item>\n</item>
+        <item>\n</item>
+        <item>\nExibido originalmente no Japão em 1989</item>
+        <item>\nGênero: Metal Hero</item>
         </string-array>
 
     <string-array name="history_goggle_five">
@@ -197,19 +226,23 @@
         </string-array>
 
     <string-array name="history_gyaban">
-        <item>Exibido no Brasil em 1991 na Rede Globo  e logo após foi exibido TV Gazeta, no programa </item>
-        <item>Gazetinha.</item>
-        <item>Curiosidades: É a primeira da trilogia dos Policiais do Espaço, continuada pelas duas séries </item>
-        <item>seguintes, Sharivan e Shaider, mas no Brasil ela foi exibida depois de Sharivan, em canal </item>
-        <item>diferente, com dubladores diferentes, confundindo os telespectadores da época. </item>
-        <item>exibido na Rede Bandeirantes em 1990 e Gyaban exibido na Rede Globo em 1991 e Shaider </item>
-        <item>terceira série da trilogia foi exibida na Rede Globo em 1992.</item>
-        <item></item>
-        <item>Exibido originalmente no Japão em 1982</item>
-        <item>Gênero: Metal Hero</item>
+       <item>Foi exibido no Brasil em 1991 na Rede Globo e logo após foi exibido TV Gazeta, no programa Gazetinha.</item>
+        <item>\n</item>
+       <item>\nCuriosidades:</item>
+        <item>\nÉ a primeira da trilogia dos Policiais do Espaço, continuada pelas duas séries seguintes, Sharivan e Shaider, mas no Brasil ela foi exibida depois de Sharivan, em canal diferente, com dubladores diferentes, confundindo os telespectadores da época.</item>
+        <item>\nSharivan exibido na Rede Bandeirantes em 1990 e Gyaban exibido na Rede Globo em 1991 e Shaider a terceira série da trilogia foi exibida na Rede Globo em 1992.</item>
+<item>\n</item>
+       <item>\nHistória: </item>
+        <item>\nA Organização Criminosa Makuu percorre o espaço conquistando planetas, matando seus habitantes e escravizando seus povos. </item>
+        <item>\nA União da Polícia Galáctica envia o oficial Takeshi Ichijoji (Retsu Ichijoji no original) para a Terra para que detenha a invasão de Makuu. </item>
+        <item>\nO pai de Retsu também foi Policial do Espaço e foi capturado pela Makuu anos atrás. Ao chegar à Terra, Retsu usa a Combat Suit prateada e todas as suas armas de alta tecnologia contra a Makuu, dizimando seus monstros um a um, ao mesmo tempo em que procura pelo pai desaparecido.</item>
+        <item>\n</item>
+        <item>\n</item>
+        <item>\nExibido originalmente no Japão em 1982</item>
+        <item>\nGênero: Metal Hero</item>
         </string-array>
 
-    <string-array name="history_bycrossers">
+    <string-array name="history_bycrosser">
         <item>Exibido no Brasil em 1991 na Rede Globo, além de ter sido lançada a série em vídeo VHS, sendo </item>
         <item>reprisada na TV Gazeta anos mais tarde.</item>
         <item></item>
@@ -236,28 +269,48 @@
         </string-array>
 
     <string-array name="history_spielvan">
-        <item>Exibido no Brasil em 1991 na Rede Manchete , onde recebeu o nome de "Jaspion 2".</item>
-        <item></item>
-        <item>Exibido originalmente no Japão em 1986</item>
-        <item>Gênero: Metal Hero</item>
+        <item>Foi estrelado por Hiroshi Watari, que havia interpretado anteriormente Sharivan e Boomerman em Jaspion. </item>
+        <item>\nSpielvan foi exibido no Brasil pela Rede Manchete a partir de 1991, onde recebeu o nome de "Jaspion 2".</item>
+        <item>\n</item>
+        <item>\nHistória:</item>
+       <item>\nA história tem início quando o Império Water ("Waller", no original) destrói o Planeta Clean e os sobreviventes enviam dois representantes do planeta ao espaço para, após um período de doze anos em animação suspensa, iniciarem o combate ao malévolo império impedindo que este conquiste o seu próximo alvo, a Terra, cobiçada em razão de seus recursos naturais e da imensa quantidade de água em sua superfície. </item>
+        <item>\nOs escolhidos para a tarefa são o garoto Spielvan e a sua amiga Diana. Além de lutar contra as ambições do Império Water, o herói busca um outro objetivo, resgatar seu pai e sua irmã das mãos de Water, visto que estes foram sequestrados e postos à serviço dos objetivos funestos deste último. </item>
+        <item>\nO que Spielvan não sabe é que sua família fora convertida em fiéis servos de seus captores: o Profº Paul, seu pai, se transformou no insensível Dr. Bio, e sua irmã Helen foi transformada pelo próprio pai na fria e calculista Herbaira, cujo objetivo é um só: assassinar seu irmão Spielvan, e assim impedir a derrota do Império Water.</item>
+        <item>\n</item>
+        <item>\n</item>
+        <item>\nExibido originalmente no Japão em 1986</item>
+        <item>\nGênero: Metal Hero</item>
         </string-array>
 
-    <string-array name="history_policial_espacial_shaider">
-        <item>Exibido no Brasil em 1992 na Rede Globo e pela TV Gazeta no programa Gazetinha. É a terceira </item>
-        <item></item>
-        <item>Exibido originalmente no Japão em 1984</item>
-        <item>Gênero: Metal Hero</item>
+    <string-array name="history_shaider">
+        <item>É a terceira e última série da trilogia dos Policiais do Espaço. </item>
+        <item>\nNo Brasil, Shaider foi exibido em 1992 pela Rede Globo e pela TV Gazeta no programa Gazetinha.</item>
+        <item>\n</item>
+        <item>\n</item>
+        <item>\nExibido originalmente no Japão em 1984</item>
+        <item>\nGênero: Metal Hero</item>
         </string-array>
 
     <string-array name="history_winspector">
-        <item>Exibido no Brasil  em meados de 1994 na Rede Manchete, onde permaneceu por um longo </item>
-        <item>período na grade de programação</item>
-        <item></item>
-        <item>Exibido originalmente no Japão em 1990</item>
-        <item>Gênero: Metal Hero</item>
+        <item>Foi exibida no Brasil pela extinta Rede Manchete em meados de 1994, onde permaneceu por um longo periodo na grade de programação.</item>
+        <item>\nA série narra as aventuras e missões do grupo de resgate chamado "Esquadrão Especial Winspector",
+        que combate o crime e situações perigosas que a polícia convencional não pode resolver.</item>
+        <item>\nA equipe é formada por um policial japonês chamado Liuma Ogawa e dois assistentes robôs (Biker e Highter).</item>
+        <item>\nA série da franquia dos Metal Heroes foi a primeira da trilogia dos Rescue Heroes.</item>
+        <item>\n</item>
+        <item>\nHistória: </item>
+        <item>\nO progresso científico e tecnológico, da mesma forma que trouxe bem estar e conforto para a humanidade, também permitiu que assassinos, destruidores de meio ambiente e bandidos de toda a espécie cometessem suas atrocidades de maneira mais fácil e impune.</item>
+        <item>\nSeguindo os ideais de um amigo policial que havia morrido, o Chefe Shunsuke Massaki organiza uma força especial de combate a crimes, como forma de equilibrar as forças do bem e do mal, surgindo assim Winspector.</item>
+        <item>\nComposto por Liuma Ogawa (Ryuma Kagawa no original) usando a armadura especial Fire; Biker e Highter (Bikel e Walter no original), magníficos robôs criados pelos cientistas da polícia; a policial campeã olímpica de tiro ao alvo Junko Fugino; Hissae Koyama(a filha do amigo policial que faleceu); o oficial de manutenção Nonoyama e o mini-robozinho Demitaz.</item>
+        <item>\nAo final da série, os integrantes de Winspector são promovidos e vão para a Europa, para fazer parte da Winspector Internacional. </item>
+        <item>\nChefe masaki fica no japão e cria uma nova equipe, chamada Solbrain, para continuar combatendo o crime, já que o Japão nao poderia ficar desprotegido.</item>
+         <item>\n</item>
+        <item>\n</item>
+        <item>\nExibido originalmente no Japão em 1990</item>
+        <item>\nGênero: Metal Hero</item>
         </string-array>
     
-    <string-array name="history_kamen_rider_black_rx">
+    <string-array name="history_black_rider_rx">
         <item>Exibido no Brasil em 1995 na Rede Manchete a partir de 24 de julho de 1995. É uma série </item>
         <item>tokusatsu de televisão pertencente à franquia Kamen Rider, sendo a continuação direta de </item>
         <item>Kamen Rider.</item>
@@ -266,11 +319,20 @@
         <item>Gênero: Kamen Rider</item>
         </string-array>
 
-    <string-array name="history_solbrain">
-        <item>Exibido no Brasil em 1995 na Rede Manchete</item>
-        <item></item>
-        <item>Exibido originalmente no Japão em 1991</item>
-        <item>Gênero: Metal Hero</item>
+    <string-array  name="history_solbrain">
+        <item>Foi exibido no Brasil pela Rede Manchete a partir de 1995, sendo um dos últimos tokusatsus a estrear na TV brasileira. Totalizando 53 episódios.</item>
+        <item>\n</item>
+        <item>\nHistória: </item>
+        <item>\n"Jovens corajosos surgem para combater os crimes que afligem o mundo e para salvar a vida e os corações perdidos dos homens.</item>
+        <item>\nPertencem à Super Equipe de Resgate Solbrain!" </item>
+        <item>\n— Narrador ao início da série. </item>
+        <item>\nApós a partida do Esquadrão Especial Winspector para a Europa, o Japão não poderia ficar desprotegido. </item>
+        <item>\nFoi pensando nisso que, sem perda de tempo, o Chefe Massaki organizou um novo grupo de heróis tão ou mais poderosos que o Winspector. </item>
+        <item>\nNascia então a Super Equipe de Resgate Solbrain, um super grupo de heróis equipados com a mais alta tecnologia.</item>
+        <item>\n</item>
+        <item>\n</item>
+        <item>\nExibido originalmente no Japão em 1991</item>
+        <item>\nGênero: Metal Hero</item>
         </string-array>
 
     <string-array name="history_ultraman_tiga">
@@ -280,7 +342,7 @@
         <item>Gênero: Ultraman</item>
         </string-array>
     
-    <string-array name="history_ryakendo">
+    <string-array name="history_ryukendo">
         <item>Exibido no Brasil em 2009 na Rede TV</item>
         <item></item>
         <item>Exibido originalmente no Japão em 2006</item>

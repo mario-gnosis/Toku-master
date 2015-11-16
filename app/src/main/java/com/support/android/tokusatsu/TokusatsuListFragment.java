@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.support.android.designlibdemo;
+package com.support.android.tokusatsu;
 
 import android.content.Context;
 import android.content.Intent;
@@ -72,11 +72,13 @@ public class TokusatsuListFragment extends Fragment {
             public TextView textViewName;
 
 
+
             public ViewHolder(View view) {
                 super(view);
                 root = view;
                 imageViewAvatar = (ImageView) view.findViewById(R.id.avatar);
                 textViewName = (TextView) view.findViewById(R.id.name);
+
 
             }
 
