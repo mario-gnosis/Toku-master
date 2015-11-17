@@ -44,7 +44,7 @@ public class Tokusatsu  implements Serializable {
     list.add(new Tokusatsu("Jaspion", "jaspion"));
     list.add(new Tokusatsu("Jiraya", "jiraya"));
     list.add(new Tokusatsu("Jiban", "jiban"));
-    list.add(new Tokusatsu("Kamen Rider Black RX", " black_rider_rx"));
+    list.add(new Tokusatsu("Kamen Rider Black RX", "black_rider_rx"));
     list.add(new Tokusatsu("Lion Man", "lion_man"));
     list.add(new Tokusatsu("Lion Man Branco", "lion_branco"));
     list.add(new Tokusatsu("Machine Man", "machine_man"));

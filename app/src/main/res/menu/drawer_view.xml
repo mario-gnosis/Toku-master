@@ -15,10 +15,7 @@
             android:id="@+id/nav_musica"
             android:icon="@drawable/ic_headset"
             android:title="Músicas" />
-        <item
-            android:id="@+id/nav_busca"
-            android:icon="@drawable/icon_search"
-            android:title="Busca" />
+
     </group>
 
     <item android:title="Apoio">

@@ -29,16 +29,6 @@
                 android:value=".MainActivity" />
         </activity>
 
-        <activity  android:name = ".SearchableActivity"  >
-            <intent-filter>
-                <action  android:name = "android.intent.action.SEARCH"  />
-            </intent-filter>
-            <meta-data  android:name = "android.app.searchable"
-                android:resource = "@drawable/ic_action_search" />
-        </activity>
-
-
-
 
     </application>
 

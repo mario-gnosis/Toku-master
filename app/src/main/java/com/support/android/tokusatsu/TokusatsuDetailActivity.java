@@ -52,16 +52,6 @@ public class TokusatsuDetailActivity extends AppCompatActivity {
 
         loadBackdrop();
 
-/*
-        conteudo = (TextView) findViewById(R.id.conteudo_historia);
-        switch (tokusatsu.name){
-
-            case 0:
-                recebeConteduto = getResources().getStringArray(R.array.history_bycrossers);
-                findViewById(R.id.conteudo_historia) = getResources().getStringArray(R.array.history_bycrossers);
-                break;
-        }
-*/
 
 
     }

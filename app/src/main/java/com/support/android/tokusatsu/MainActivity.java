@@ -89,9 +89,7 @@ public class MainActivity extends AppCompatActivity {
             case R.id.nav_musica:
                 Toast.makeText(this,"Aqui vai te direcionar para uma tela com uma lista de músicas!",Toast.LENGTH_LONG).show();
                 break;
-            case R.id.nav_busca:
-                Toast.makeText(this,"Você podera procuar algo do app!",Toast.LENGTH_LONG).show();
-                break;
+
             case  R.id.nav_agradecimento:
                 Toast.makeText(this,"Obrigado a todos que me ajudaram!",Toast.LENGTH_LONG).show();
                 break;
@@ -124,12 +122,7 @@ public class MainActivity extends AppCompatActivity {
         }
         int id = item.getItemId();
 
-        if(id == R.id.action_search){
-            Toast.makeText(getApplicationContext(), "O que você gostaria de procurar?", Toast.LENGTH_SHORT).show();
-            return true;
-        }
-
-          if (id == R.id.Sair) {
+              if (id == R.id.Sair) {
               AlertDialog alertDialog;
               alertDialog = new AlertDialog.Builder(this).create();
               alertDialog.setTitle("Sair");
